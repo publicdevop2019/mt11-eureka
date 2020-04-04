@@ -32,6 +32,6 @@ COPY --from=jlink-package /opt/jdk-11-mini-runtime /opt/jdk-11-mini-runtime
 
 COPY --from=maven ./target/Eureka.jar ./
 
-EXPOSE 8087
+EXPOSE 8761
 
 ENTRYPOINT ["java"]
