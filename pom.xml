@@ -19,5 +19,7 @@
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
     </dependencies>
-
+    <build>
+        <finalName>Eureka</finalName>
+    </build>
 </project>
