@@ -35,6 +35,7 @@ public class GracefulShutDownHook {
             networkInterfaceIterator.forEachRemaining(e -> {
                 e.getInterfaceAddresses().stream().forEach(el -> {
                     log.info("NetworkInterface.getNetworkInterfaces " + el.getAddress().getHostAddress());
+                    log.info("NetworkInterface.getNetworkInterfaces " + el.getAddress().getHostName());
                 });
             });
         } catch (SocketException e) {
