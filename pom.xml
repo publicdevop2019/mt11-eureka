@@ -6,7 +6,6 @@
 
     <artifactId>mt11-eureka</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Eureka</name>
     <parent>
         <groupId>com.hw</groupId>
         <artifactId>config-center</artifactId>
